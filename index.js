@@ -1,5 +1,5 @@
 async function makeIssue(){
-    const token = process.env.GITHUB_TOKEN;
+    const token = process.env.GH_TOKEN;
     const OWNER = "Yumi_Park996"; //수정
     const REPO = "github_power_actions"; //수정
     const response = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/issues`, {
